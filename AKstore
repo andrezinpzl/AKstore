@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minha Loja de Roupas em Preto e Branco</title>
+	<style>
+		body {
+			background-color: #000;
+			color: #fff;
+		}
+		h1 {
+			text-align: center;
+		}
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.produto {
+			background-color: #fff;
+			color: #000;
+			width: 30%;
+			margin-bottom: 20px;
+			padding: 10px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.3);
+			text-align: center;
+		}
+		.produto img {
+			width: 100%;
+			height: auto;
+		}
+		.produto h3 {
+			margin-top: 10px;
+		}
+		.produto p {
+			font-size: 18px;
+			margin-top: 10px;
+		}
+		.botao-comprar {
+			background-color: #000;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			cursor: pointer;
+			font-size: 18px;
+			margin-top: 10px;
+			width: 100%;
+			transition: all 0.3s ease-in-out;
+		}
+		.botao-comprar:hover {
+			background-color: #fff;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Minha Loja de Roupas em Preto e Branco</h1>
+	</header>
+	<main>
+		<div class="container">
+			<div class="produto">
+				<img src="imagem-roupa-1.jpg" alt="Imagem da roupa 1">
+				<h3>Camisa preta</h3>
+				<p>R$ 49,99</p>
+				<button class="botao-comprar">Comprar</button>
+			</div>
+			<div class="produto">
+				<img src="imagem-roupa-2.jpg" alt="Imagem da roupa 2">
+				<h3>Calça branca</h3>
+				<p>R$ 79,99</p>
+				<button class="botao-comprar">Comprar</button>
+			</div>
+			<div class="produto">
+				<img src="imagem-roupa-3.jpg" alt="Imagem da roupa 3">
+				<h3>Vestido preto</h3>
+				<p>R$ 99,99</p>
+				<button class="botao-comprar">Comprar</button>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<p>Todos os direitos reservados - Minha Loja de Roupas em Preto e Branco</p>
+	</footer>
+</body>
+</html>
